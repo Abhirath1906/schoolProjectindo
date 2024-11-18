@@ -4,7 +4,7 @@
 
 <body>
 
-    <body style="font-family:Arial, Helvetica, sans-serif;background-color: rgb(255, 255, 255);background-color:Azure">
+    <body style="font-family:Arial, Helvetica, sans-serif;background-color:Azure">
         <!-- Navbar -->
         <div style="border: solid black;padding: 15px;background-color:rgb(144, 159, 159) ;">
             <div class="AnecdoteCom">
@@ -21,12 +21,18 @@
                             <li>Anecdote</li>
                         </option> -->
                     </select>
-                    <p class="AboutMe">About Me</p>
-                    <p class="Anecdotee">Anecdote</p>
-                    <p class="register">Register</p>
+                    <a href="aboutme.html" class="AboutMe">About Me</a>
+                    <a href="anecdote.html" class="Anecdotee">Anecdote</a>
+                    <button onclick="butt()" type="submit" class="register">Register</button>
                 </ul>
             </div>
         </div>
+
+        <script>
+            function butt(){
+                alert("Thankyou for Register")
+            }
+        </script>
         <style>
             *,
 
@@ -37,6 +43,7 @@
 
 
             .Anecdotee {
+                color:black;
                 border: 2px solid black;
                 padding: 10px;
                 font-size: 30px;
@@ -54,6 +61,7 @@
             }
 
             .AboutMe {
+                color:black;
                 border: 2px solid black;
                 padding: 10px;
                 font-size: 30px;
@@ -85,6 +93,7 @@
             }
 
             .register {
+                color:black;
                 border: 2px solid black;
                 padding: 10px;
                 font-size: 30px;
@@ -112,32 +121,212 @@
 
         <!-- content -->
 
-        <div class="contentNav1">
-            <a href="#">Page 1</a>
-            <a href="#">Page 2</a>
-            <a href="#">Page 3</a>
-            <a href="#">Page 4</a>
-            <a href="#">Page 5</a>
+        <div class="ThePageNav">
+            <p class="ThePage">The Page of my Anecdote</p>
         </div>
 
-        <div class="contentNav2">
-            <a href="#">Page 6</a>
-            <a href="#">Page 7</a>
-            <a href="#">Page 8</a>
-            <a href="#">Page 9</a>
-            <a href="#">Page 10</a>
+        <!-- the page -->
+
+        <div style="display: flex;justify-content: center;gap:70px">
+            <div class="containerPage1">
+                <div>
+                    <img style="height: 200px;border: 2px solid black;" src="picture/Smile.png">
+
+                    <div style="border: 2px solid black;background-color: rgb(216, 216, 216);">
+                        <p class="theText" >Please Click this Link:</p>
+                        <a class="Page" href="page1.html">Page 1</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="containerPage1">
+                <div>
+                    <img style="height: 200px;border: 2px solid black;" src="picture/Smile.png">
+
+                    <div style="border: 2px solid black;background-color: rgb(216, 216, 216);">
+                        <p class="theText" >Please Click this Link:</p>
+                        <a class="Page" href="page2.html">Page 2</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="containerPage1">
+                <div>
+                    <img style="height: 200px;border: 2px solid black;" src="picture/Smile.png">
+
+                    <div style="border: 2px solid black;background-color: rgb(216, 216, 216);">
+                        <p class="theText" >Please Click this Link:</p>
+                        <a class="Page" href="page3.html">Page 3</a>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="contentNav3">
-            <a href="#">Page 11</a>
-            <a href="#">Page 12</a>
-            <a href="#">Page 13</a>
-            <a href="#">Page 14</a>
-            <a href="#">Page 15</a>
+        <!-- Page 2 -->
+
+        <div style="display: flex;justify-content: center;gap:70px">
+            <div class="containerPage1">
+                <div>
+                    <img style="height: 200px;border: 2px solid black;" src="picture/Smile.png">
+
+                    <div style="border: 2px solid black;background-color: rgb(216, 216, 216);">
+                        <p class="theText" >Please Click this Link:</p>
+                        <a class="Page" href="page4.html">Page 4</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="containerPage1">
+                <div>
+                    <img style="height: 200px;border: 2px solid black;" src="picture/Smile.png">
+
+                    <div style="border: 2px solid black;background-color: rgb(216, 216, 216);">
+                        <p class="theText" >Please Click this Link:</p>
+                        <a class="Page" href="page5.html">Page 5</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="containerPage1">
+                <div>
+                    <img style="height: 200px;border: 2px solid black;" src="picture/Smile.png">
+
+                    <div style="border: 2px solid black;background-color: rgb(216, 216, 216);">
+                        <p class="theText" >Please Click this Link:</p>
+                        <a class="Page" href="page6.html">Page 6</a>
+                    </div>
+                </div>
+            </div>
         </div>
+
+
+        <!-- Page 3 -->
+
+        <div style="display: flex;justify-content: center;gap:70px">
+            <div class="containerPage1">
+                <div>
+                    <img style="height: 200px;border: 2px solid black;" src="picture/Smile.png">
+
+                    <div style="border: 2px solid black;background-color: rgb(216, 216, 216);">
+                        <p class="theText" >Please Click this Link:</p>
+                        <a class="Page" href="page7.html">Page 7</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="containerPage1">
+                <div>
+                    <img style="height: 200px;border: 2px solid black;" src="picture/Smile.png">
+
+                    <div style="border: 2px solid black;background-color: rgb(216, 216, 216);">
+                        <p class="theText" >Please Click this Link:</p>
+                        <a class="Page" href="page8.html">Page 8</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="containerPage1">
+                <div>
+                    <img style="height: 200px;border: 2px solid black;" src="picture/Smile.png">
+
+                    <div style="border: 2px solid black;background-color: rgb(216, 216, 216);">
+                        <p class="theText" >Please Click this Link:</p>
+                        <a class="Page" href="page9.html">Page 9</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- page 4 -->
+
+        <div style="display: flex;justify-content: center;gap:70px">
+            <div class="containerPage1">
+                <div>
+                    <img style="height: 200px;border: 2px solid black;" src="picture/Smile.png">
+
+                    <div style="border: 2px solid black;background-color: rgb(216, 216, 216);">
+                        <p class="theText" >Please Click this Link:</p>
+                        <a class="Page" href="page10.html">Page 10</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="containerPage1">
+                <div>
+                    <img style="height: 200px;border: 2px solid black;" src="picture/Smile.png">
+
+                    <div style="border: 2px solid black;background-color: rgb(216, 216, 216);">
+                        <p class="theText" >Please Click this Link:</p>
+                        <a class="Page" href="page11.html">Page 11</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="containerPage1">
+                <div>
+                    <img style="height: 200px;border: 2px solid black;" src="picture/Smile.png">
+
+                    <div style="border: 2px solid black;background-color: rgb(216, 216, 216);margin-bottom: 30px;">
+                        <p class="theText" >Please Click this Link:</p>
+                        <a class="Page" href="page12.html">Page 12</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- page 5 -->
+
+       
 
         <style>
-            .contentNav1 {
+
+
+            .Page{
+                color:black;
+            }
+            .theText{
+                font-weight: bold;
+                font-style: italic;
+                font-size: 20px;
+            }
+
+
+            .containerPage1 {
+                border: none;
+                color: black;
+                transition: background 0.3s, transform 0.5s;
+            }
+
+            .containerPage1:hover {
+                background: rgb(179, 179, 179);
+                transform: scale(1.05);
+            }
+
+            .ThePageNav {
+                display: flex;
+                justify-content: center;
+                border: 2px solid black;
+                margin-top: 50px;
+                margin-left: 300px;
+                margin-right: 300px;
+                text-align: center;
+
+            }
+
+            .ThePage {
+                font-size: 30px;
+                font-style: oblique;
+
+            }
+
+            .containerPage1 {
+                margin-left: 30px;
+                margin-top: 80px;
+
+            }
+
+            .contentNav2 {
                 display: flex;
                 justify-content: space-evenly;
                 border: solid black;
@@ -146,16 +335,7 @@
                 margin-right: 10px;
             }
 
-            .contentNav2{
-                display: flex;
-                justify-content: space-evenly;
-                border: solid black;
-                margin-top: 80px;
-                margin-left: 10px;
-                margin-right: 10px;
-            }
-            
-            .contentNav3{
+            .contentNav3 {
                 display: flex;
                 justify-content: space-evenly;
                 border: solid black;
@@ -165,4 +345,44 @@
             }
         </style>
         <!-- content end  -->
-    </body>git
+
+
+
+        <!-- footer  -->
+
+        <div class="containerfooter">
+            <p class="footertext">Thank You for read my anecdote text</p>
+        </div>
+
+        <style>
+            .containerfooter{
+                background-color:rgb(144, 159, 159);
+                font-size: 30px;
+                font-style: italic;
+                font-weight: bold;
+                padding: 35px;
+                border: 2px solid black;
+            }
+
+
+            .footertext{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+
+
+        <!-- footer end -->
+    </body>
+
+
+   
+
+
+
+
+
+
+
+               
